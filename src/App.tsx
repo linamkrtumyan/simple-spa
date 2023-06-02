@@ -1,13 +1,14 @@
+import { Component } from "react";
 import Header from "./components/Header";
 import Main from "./components/Main";
 
-function App() {
-  return (
-    <>
-      <Header />
-      <Main />
-    </>
-  );
+export default class App extends Component {
+  render() {
+    return (
+      <>
+        <Header />
+        <Main />
+      </>
+    );
+  }
 }
-
-export default App;
